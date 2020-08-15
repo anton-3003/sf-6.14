@@ -1,0 +1,50 @@
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+.hidden {
+	display: none;
+}
+
+#win-message {
+  margin: 20px auto;
+}
+
+#points {
+  color: green;
+}
+
+#lostP {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#win-message {
+  margin: 0 auto;
+}
+
+#btn-play-group {
+  margin: 0 auto;
+}

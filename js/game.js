@@ -65,7 +65,7 @@ function init() {
   // TODO: заказчик просил отдельную кнопку, запускающую игру а не просто по загрузке
   $("#button-start-play").click(function(){
     round();
-    $("#button-start-play").prop("disabled", true);
+    $("#button-start-play").hide();
     firstHitTime = getTimestamp();
   });
   

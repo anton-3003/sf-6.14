@@ -37,6 +37,7 @@ function endGame() {
   $("#total-time-played").text(totalPlayedSeconds);
   $("#points").text(points);
   $("#lostP").text(lostPoints);
+  $("#total-points").text(points-lostPoints);
   $("#win-message").removeClass("d-none");
 }
 
